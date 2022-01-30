@@ -33,7 +33,7 @@ curl --location --request POST 'http://{simple-storage-server-url}/uploadSource'
 ```
 
 you will get response like , ```{
-    "message": "File uploaded vidd.mp4"
+    "message": "File uploaded my_first_video_to_stream"
 }```
 
 - Process the video. (video format should be the source video's format)
