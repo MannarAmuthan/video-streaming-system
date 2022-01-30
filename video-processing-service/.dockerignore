@@ -1,0 +1,11 @@
+.DS_Store
+.env
+earth
+sea
+.idea
+.vscode
+*.json
+sample
+*__pycache__/
+*.yaml
+**/.git

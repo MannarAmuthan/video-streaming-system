@@ -1,0 +1,18 @@
+http://192.168.75.183:5000 -> [simple-storage-server-url]
+
+
+http://192.168.75.183:8080 -> [video-processing-service-url]
+
+
+curl --location --request POST 'http://192.168.75.183:5000/uploadSource' \
+--header 'Content-Type: multipart/form-data' \
+--form 'file=@/Users/amuthanmannan/Downloads/ramnad_trip.mp4' \
+--form 'video_id=ramnad_trip'
+
+
+curl --location --request POST 'http://192.168.75.183:8080/process-video' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "video_id":"ramnad_trip",
+    "video_format":"mp4"
+}'

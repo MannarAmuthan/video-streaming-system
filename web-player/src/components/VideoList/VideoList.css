@@ -1,0 +1,11 @@
+.video-list {
+	display: flex;
+	flex-wrap: wrap;
+    gap: 1em;
+}
+
+.more-videos {
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+}

@@ -1,0 +1,19 @@
+.video-app-container {
+    padding: 30px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+.up {
+    overflow: scroll;
+}
+
+.down {
+    overflow: scroll;
+    height: 50vh;
+}
+
+.video-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+}
